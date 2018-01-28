@@ -1,55 +1,8 @@
-.main-header{
-    background-color:#ffffff;
-    border:solid;
-    border-color:#cccccc;
-    width:auto;
-}
 
-.header-tab{
-    width:270px;
-    height:75px;
-    background-color:#4aaaa5;
-    margin-top:0px;
-}
-
-.entireContent{
-    width:960px;
-    margin-left:100px;
-}
 
 .intro{
     background-color: rgba(238,248,255,0.7);/*transparent background*/
     border:solid;
     border-color:#dddddd;
     width:650px;
-}
-
-.body{
-    background-color:#ffffff;
-}
-
-.footer-style{
-    color: aliceblue;
-    background-color:#666666;
-}
-
-.sidenav{
-    width:270px;
-    z-index:1; /*stay on top*/
-    top:0; /*stay at the top*/
-    right:0;
-    background-color: white;
-    padding: 10px;
-    margin: 20px;
-    border:solid;
-    border-color:rgb(1, 63, 1);
-    position:fixed;
-}
-
-.icon{
-    width:75px;
-}
-
-.connect-heading{
-    text-align:center;
 }
