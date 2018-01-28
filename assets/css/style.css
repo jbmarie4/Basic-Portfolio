@@ -10,11 +10,15 @@
     background-color:#4aaaa5;
 }
 
+.entireContent{
+    width:960px;
+}
 
-div.intro{
+.intro{
     background-color: rgba(238,248,255,0.7);/*transparent background*/
     border:solid;
     border-color:#dddddd;
+    width:650px;
 }
 
 .body{
@@ -32,7 +36,6 @@ div.intro{
     top:0; /*stay at the top*/
     right:0;
     background-color: white;
-    position:fixed; /*stay in place on scroll*/
     padding: 10px;
     margin: 20px;
     border:solid;
