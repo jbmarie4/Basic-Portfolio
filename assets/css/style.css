@@ -69,23 +69,30 @@ footer {
 	float:left;
 }
 	
-/*aside {
+#asideContainer {
     margin:auto;
-	background-color:white;
+    background-color:white;
+    border:solid;
+    border-color:gray;
 	width:270px;
 	height:300px;
-	float:right;*/
+	float:right;
 }
 
-.sideContainer{
-    margin: auto;
+#icon{
+    width:25px;
+    height:25px;
+}
+
+/*#sideContainer{
+    border:solid;
+    border-width: 1px;
+    border-color:gray;
+    margin:auto;
     width:270px;
     height:300px;
-	/*height:800px; (*remove*, this is just to help with layout initially*/
-    padding:10px; 
-    float:right;
+	padding:10px; 
+    float:right;*/
+    
 }
 
-.icon{
-    width:50px;
-}
