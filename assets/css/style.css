@@ -1,130 +1,55 @@
-/* -----------------index----------------------------*/
+@charset "utf-8"
+/*CSS Document*/
 
-
-/*.intro{
-    background-color: rgba(238,248,255,0.7);/*transparent background*/
-    border:solid;
-    border-color:#dddddd;
-    width:650px;
-}/*
-
-
-
-
-/* ----------------portfolio------------------- */
+/*default my tags*/
+body, div, header, aside, footer{
+	margin: 0px; 
+	padding: 0px;
+}
 
 body{
-    color:#ffffff;
+	background-color:black;
+}
+	
+#wrapper{
+	margin: auto;
+	background-color:white;
+	width:920px;
+	/*height:800px; (*remove*, this is just to help with layout initially*/
+	padding:10px;
 }
 
-.mainHeader{
-    background-color: #ffffff;
-    padding:10px;
+header{
+	background-color:white;
+	height:100px;
 }
 
-.header-list{
-    display:block;
-    float:right;
-    text-align:center;
-    overflow:hidden;
-    padding:25px;
+#contentContainer{
+    background-color:blue;
+	/*margin-top:10px;*/
+	/*margin-bottom:10px;*/
+	padding:10px;
+	overflow:hidden;
 }
 
-.header-tab{
-    border:none;
-    background-color:#4aaaa5;
-    float:left;
-    
-}
-
-
-
-.commIcon{
-    width:20%;
-    height:20%;
-}
-.gamePic{
-    width:25%;
-    height:25%;
-    border:1px;
-    border:solid;
-    border-color:gray;
-       
-}
-
-/*.gamePic2{
-    width:25%;
-    height:25%;
-    border:1px;
-    border:solid;
-    border-color:gray;    
-    float:right;
-}
-
-.gamePic3{
-    width:25%;
-    height:25%;
-    border:1px;
-    border:solid;
-    border-color:gray;  
-    float:left;  
-}
-
-.gamePic4{
-    width:25%;
-    height:25%;
-    border:1px;
-    border:solid;
-    border-color:gray;
-    float:right;    
-}
-
-.gamePic5{
-    width:25%;
-    height:25%;
-    border:1px;
-    border:solid;
-    border-color:gray;    
-    float:left;
-}*/
-
-/*.placeholders{
-    display:inline;
-}*/
-
-.sideNav{
-    border:1px;
-    border:solid;
-    border-color:#dddddd;
-    float:right;
+footer {
+    background-color:darkgray;
+    color:white;
     text-align: center;
-    width:270px;
-    
+	height:100px;
 }
 
-.container{
-    border:1px;
-    border:solid;
-    border-color:#dddddd;
-    background-color:#ffffff;
-    width:650px;
-    float:left;
-    
-    
+#articleContainer{
+	background-color:white;
+	width:66%;
+	height:300px;
+	float:left;
 }
 
-.wrapper{
-    width:960px;
-    margin:0 auto;
-}
-
-.footer-style{
-    position:fixed;
-    left:0;
-    bottom:0;
-    width:100%;
-    height: 50px;
-    background-color:#666666;
-    color:#e9e7e7;
-    text-align:center;
+	
+aside {
+	background-color:white;
+	width:33%;
+	height:300px;
+	float:right;
 }
