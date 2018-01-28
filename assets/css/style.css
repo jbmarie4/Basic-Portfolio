@@ -6,3 +6,18 @@
     border-color:#dddddd;
     width:650px;
 }
+.gamePic{
+    width:20%;
+    height:20%;
+    border:1px;
+    border:solid;
+    border-color:gray;    
+}
+
+.sideNav{
+    border:1px;
+    border:solid;
+    border-color:#dddddd;
+    float:right;
+}
+
