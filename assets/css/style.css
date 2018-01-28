@@ -3,7 +3,28 @@ div.intro{
 
 }
 
-footer.footer-style{
+.footer-style{
     color: aliceblue;
     background-color: gray;
+}
+
+.sidenav{
+    width:270px;
+    z-index:1; /*stay on top*/
+    top:0; /*stay at the top*/
+    right:0;
+    background-color: white;
+    position:fixed; /*stay in place on scroll*/
+    padding: 10px;
+    margin: 20px;
+    border:solid;
+    border-color:rgb(1, 63, 1);
+}
+
+.icon{
+    width:75px;
+}
+
+.connect-heading{
+    text-align:center;
 }
