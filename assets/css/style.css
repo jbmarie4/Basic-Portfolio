@@ -1,11 +1,29 @@
-div.intro{
-    background-color: rgba(238,248,255,0.7);
+.main-header{
+    background-color:#ffffff;
+    border:solid;
+    border-color:#cccccc;
+}
 
+.header-tab{
+    width:270px;
+    height:75px;
+    background-color:#4aaaa5;
+}
+
+
+div.intro{
+    background-color: rgba(238,248,255,0.7);/*transparent background*/
+    border:solid;
+    border-color:#dddddd;
+}
+
+.body{
+    background-color:#ffffff;
 }
 
 .footer-style{
     color: aliceblue;
-    background-color: gray;
+    background-color:#666666;
 }
 
 .sidenav{
