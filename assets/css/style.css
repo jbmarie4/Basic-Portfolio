@@ -2,16 +2,19 @@
     background-color:#ffffff;
     border:solid;
     border-color:#cccccc;
+    width:auto;
 }
 
 .header-tab{
     width:270px;
     height:75px;
     background-color:#4aaaa5;
+    margin-top:0px;
 }
 
 .entireContent{
     width:960px;
+    margin-left:100px;
 }
 
 .intro{
@@ -40,6 +43,7 @@
     margin: 20px;
     border:solid;
     border-color:rgb(1, 63, 1);
+    position:fixed;
 }
 
 .icon{
