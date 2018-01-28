@@ -2,7 +2,7 @@
 /*CSS Document*/
 
 /*default my tags*/
-;body, div, header, aside, footer{
+;body, header, footer{
 	margin: 0px; 
 	padding: 0px;
 }
@@ -13,7 +13,6 @@ body{
 	
 #wrapper{
 	margin: auto;
-	background-color:white;
 	width:920px;
 	/*height:800px; (*remove*, this is just to help with layout initially*/
 	padding:10px;
@@ -38,8 +37,12 @@ li{
     
 }
 
+.pic{
+    margin:2px;
+}
+
 #contentContainer{
-    background-color:blue;
+   
 	/*margin-top:10px;*/
 	/*margin-bottom:10px;*/
 	padding:10px;
@@ -54,15 +57,35 @@ footer {
 }
 
 #articleContainer{
-	background-color:white;
-	width:66%;
-	height:300px;
+    margin-right: 10px;
+    margin-left:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    background-color:white;
+    border:solid;
+    border-color:gray;
+	width:650px;
+	height:500px;
 	float:left;
 }
 	
-aside {
+/*aside {
+    margin:auto;
 	background-color:white;
-	width:33%;
+	width:270px;
 	height:300px;
-	float:right;
+	float:right;*/
+}
+
+.sideContainer{
+    margin: auto;
+    width:270px;
+    height:300px;
+	/*height:800px; (*remove*, this is just to help with layout initially*/
+    padding:10px; 
+    float:right;
+}
+
+.icon{
+    width:50px;
 }
