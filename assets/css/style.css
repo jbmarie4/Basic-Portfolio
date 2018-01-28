@@ -2,7 +2,7 @@
 /*CSS Document*/
 
 /*default my tags*/
-body, div, header, aside, footer{
+;body, div, header, aside, footer{
 	margin: 0px; 
 	padding: 0px;
 }
@@ -22,6 +22,20 @@ body{
 header{
 	background-color:white;
 	height:100px;
+}
+
+ul{
+    style:none;
+    margin:0;
+    padding:0;
+   
+}
+
+li{
+    display:inline;
+    float:right;
+    padding:3px;
+    
 }
 
 #contentContainer{
@@ -45,7 +59,6 @@ footer {
 	height:300px;
 	float:left;
 }
-
 	
 aside {
 	background-color:white;
