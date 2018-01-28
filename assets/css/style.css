@@ -42,9 +42,6 @@ li{
 }
 
 #contentContainer{
-   
-	/*margin-top:10px;*/
-	/*margin-bottom:10px;*/
 	padding:10px;
 	overflow:hidden;
 }
@@ -57,42 +54,30 @@ footer {
 }
 
 #articleContainer{
-    margin-right: 10px;
-    margin-left:auto;
-    margin-top:auto;
-    margin-bottom:auto;
     background-color:white;
     border:solid;
     border-color:gray;
 	width:650px;
 	height:500px;
-	float:left;
+    float:left;
+    display:inline-block;
 }
 	
-#asideContainer {
-    margin:auto;
+aside{
     background-color:white;
     border:solid;
     border-color:gray;
 	width:270px;
 	height:300px;
-	float:right;
+    float:right;
+    overflow:hidden;
+    vertical-align:top;
+    display:inline-block;
 }
 
-#icon{
-    width:25px;
-    height:25px;
-}
 
-/*#sideContainer{
-    border:solid;
-    border-width: 1px;
-    border-color:gray;
-    margin:auto;
-    width:270px;
-    height:300px;
-	padding:10px; 
-    float:right;*/
+
+
     
 }
 
