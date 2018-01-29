@@ -13,9 +13,9 @@ body{
 	
 #wrapper{
 	margin: auto;
-	width:920px;
+	width:940px;
 	/*height:800px; (*remove*, this is just to help with layout initially*/
-	padding:10px;
+	
 }
 
 header{
@@ -33,7 +33,7 @@ h1{
     float:left;
     margin-left: 100px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 13px;
     height: 45px;
     color: white;
 }
@@ -43,7 +43,7 @@ h1{
 .navbar{
     color:darkgray;
     float:right;
-    list-style: none;
+    
 }
 
 .pic{
@@ -53,6 +53,12 @@ h1{
 #contentContainer{
 	padding:10px;
 	overflow:hidden;
+}
+
+.info{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height:22pt;
 }
 
 footer {
@@ -73,7 +79,7 @@ footer {
 	width:450px;
 	height:100%;
     float:left;
-    display:inline-block;
+    
     padding:10px;
 }
 	
@@ -86,7 +92,7 @@ aside{
     float:right;
     overflow:hidden;
     vertical-align:top;
-    display:inline-block;
+    margin-top:11px;
     text-align: center;
 }
 
