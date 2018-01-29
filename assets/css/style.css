@@ -24,30 +24,26 @@ header{
     
 }
 
+
 h1{
     width: 200px;
     border: solid;
     border-color: transparent;
-    background-color: blue;
+    background-color:#4aaaa5;
+    float:left;
     margin-left: 100px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     height: 45px;
     color: white;
 }
 
-ul{
-    style:none;
-    margin:0;
-    padding:0;
-   
-}
 
-li{
-    display:inline;
+/*-------------navbar--------------------- */
+.navbar{
+    color:darkgray;
     float:right;
-    padding:3px;
-    
+    list-style: none;
 }
 
 .pic{
@@ -60,10 +56,14 @@ li{
 }
 
 footer {
-    background-color:darkgray;
-    color:white;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    height: 50px;
+    background-color:#666666;
+    color:#e9e7e7;
     text-align: center;
-	height:100px;
 }
 
 #articleContainer{
@@ -71,7 +71,7 @@ footer {
     border:solid;
     border-color:gray;
 	width:450px;
-	height:500px;
+	height:100%;
     float:left;
     display:inline-block;
     padding:10px;
@@ -98,5 +98,6 @@ aside{
 /*------------portfolio---------------*/
 
 .gamePic{
-    width:50px;
+    width:120px;
+    padding:10px;
 }
