@@ -1,61 +1,68 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="us-en">
+	<head>
+		<meta charset="utf-8">
+		<title>Jamie Burgess&#39s Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
 
-    <title>Jamie Burgess&#39s Portfolio</title>
-    <meta charset="utf-8"/>
-    <link href="assets/css/style.css" type="text/css" rel="stylesheet"/>
-    
-</head>
+	<body background="assets/images/background_wormz.png">
+        <header>
+			<h1>Jamie Burgess</h1>
+				<nav>
+                    <li class="header-list"><a href="#top">About</a></li>
+                    <li class="header-list"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="header-list"><a href="contact.html">Contact</a></li>
+                </nav>
+        </header>
 
-<body>
-    <div="mainHeader">
-    <header>
-         <h1 class=header-tab>Jamie Burgess</h1>
-            <nav>
-                <li class="header-list"><a href="index.html">About</a></li>
-                <li class="header-list"><a href="#top">Portfolio</a></li>
-                <li class="header-list"><a href="contact.html">Contact</a></li>
-            </nav>
-    </header>
-    </div>
-
-    <!-- ----------------sidebar div and images-------------------- -->
+    <!-- ----------------aside and images-------------------- -->
 
     <div class="wrapper">
-        <div class="sideNav">
-                <h2 class="connect-heading">Connect With Me</h2>
-                <a href="https://github.com/" target="_blank"><img src="assets/images/github_icon.png" alt="github icon" class="commIcon"></a>
-                <a href="https://linkedIn.com/" target="_blank"><img src="assets/images/linkedin_icon.png" alt="linkedIn icon" class="commIcon"></a>
-                <a href="https://stackoverflow.com" target="_blank"><img src="assets/images/stackoverflow_icon.png" alt="stack overflow icon" class="commIcon"></a>
-        
-        </div>
+            <aside>
+                    <h2 class="connect-heading">Connect With Me</h2>
+                        <a href="https://github.com/" target="_blank"><img src="assets/images/github_icon.png" alt="github icon" id="icon"></a>
+                        <a href="https://linkedIn.com/" target="_blank"><img src="assets/images/linkedin_icon.png" alt="linkedIn icon" id="icon"></a>
+                        <a href="https://stackoverflow.com" target="_blank"><img src="assets/images/stackoverflow_icon.png" alt="stack overflow icon" id="icon"></a>
+            </aside> 
+
 
     <!-- ---------------- placeholder icons ------------------ -->
         
-        <div class="container">
-            <h2>Portfolio</h2>
-            <hr class="hr"/>
-            <div class="placeholders">
-                <div><a href="#top"><img class="gamePic" src="assets/images/placeholder_hangman.jpg" alt="image"></a>
-                    <p class="gameName">Hangman</p>
+        <div id="wrapper">
+                <div id="articleContainer">
+                        <h2>Portfolio</h2>
+                        <hr class="hr"/>
+                        <div class="placeholders">
+                            <div><a href="#top"><img class="gamePic" src="assets/images/placeholder_hangman.jpg" alt="image"></a>
+                                <p class="gameName">Hangman</p>
+                            </div>
+            
+                            <div><a href="#top"><img class="gamePic" src="assets/images/placeholder_rpg.jpg" alt="image"></a>
+                                <p class="gameName">RPG Game</p>
+                            </div>
+            
+                            <div><a href="#top"><img class="gamePic" src="assets/images/placeholder_trivia.jpg" alt="image"></a>
+                                <p class="gameName">Trivia Game</p>
+                            </div>
+            
+                            <div><a href="#top"><img class="gamePic" src="assets/images/placeholder_rutgersinfo.jpg" alt="image"></a>
+                                <p class="gameName">Rutgers Info Widget</p>
+                            </div>
+            
+                            <div><a href="#top"><img class="gamePic" src="assets/images/placeholder_rps.jpg" alt="image"></a>
+                                <p class="gameName">Rock Paper Scissors</p>
+                            </div>
+                
                 </div>
-
-                <div><a href="#top"><img class="gamePic" src="assets/images/placeholder_rpg.jpg" alt="image"></a>
-                    <p class="gameName">RPG Game</p>
-                </div>
-
-                <div><a href="#top"><img class="gamePic" src="assets/images/placeholder_trivia.jpg" alt="image"></a>
-                    <p class="gameName">Trivia Game</p>
-                </div>
-
-                <div><a href="#top"><img class="gamePic" src="assets/images/placeholder_rutgersinfo.jpg" alt="image"></a>
-                    <p class="gameName">Rutgers Info Widget</p>
-                </div>
-
-                <div><a href="#top"><img class="gamePic" src="assets/images/placeholder_rps.jpg" alt="image"></a>
-                    <p class="gameName">Rock Paper Scissors</p>
-                </div>
+            
+        </div>
+    
+    
+    
+    
+    <div class="container">
+            
             </div>
 
         </div>
@@ -66,7 +73,7 @@
 
 <!-- ----------------------footer---------------- -->
 
-    <footer class="footer-style">
+    <footer>
         <p>&copy;2018 Jamie Burgess</p>
     </footer>
 </body>
