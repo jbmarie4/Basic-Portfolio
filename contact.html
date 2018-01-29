@@ -18,27 +18,47 @@
                 </nav>
         </header>
 
-<!-- -------------------------------form---------------------------------------- -->
-
-
-
-
-
-<!-- ---------------------------sidebar div and images---------------------------------- -->
-
-    <div class="sidenav">
-        <h2>Connect With Me</h2>
-        <a href="https://github.com/" target="_blank"><img src="assets/images/github_icon.png" alt="github icon"></a>
-        <a href="https://linkedIn.com/" target="_blank"><img src="assets/images/linkedin_icon.png" alt="linkedIn icon"></a>
-        <a href="https://stackoverflow.com" target="_blank"><img src="assets/images/stackoverflow_icon.png" alt="stack overflow icon"></a>
-    </div>
-
-</body>
+        <div id="wrapper">
+                <aside>
+                    <h2 class="connect-heading">Connect With Me</h2>
+                        <a href="https://github.com/" target="_blank"><img src="assets/images/github_icon.png" alt="github icon" id="icon"></a>
+                        <a href="https://linkedIn.com/" target="_blank"><img src="assets/images/linkedin_icon.png" alt="linkedIn icon" id="icon"></a>
+                        <a href="https://stackoverflow.com" target="_blank"><img src="assets/images/stackoverflow_icon.png" alt="stack overflow icon" id="icon"></a>
+                </aside>     
+        <div id="contentContainer">
+            <div id="articleContainer">            
+                
+    <!-- -------------------------form----------------------------------- -->
+                <form action="#top" method="get">
+                    <fieldset>
+                        <h2>Contact</h2>
+                            <label>
+                                Name
+                                <input type="text" name="name" size="30" maxlenth="100">
+                            </label>
+                            <br/>
+            
+                            <label>
+                                Email
+                                <input type="email" name="email" size="30" maxlenth="100">
+                            </label>
+                            <br/>
+            
+                            <label for="comments">
+                                Comments:
+                            </label>
+                            <br/>
+                                <textarea rows="4" cols="40" id="comments"></textarea>
+                                <br/>
+                                <input type="submit" value="Submit"/>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
 
     <!-- ----------------------------------footer-------------------------------------------- -->
 
-    <footer class="footer-style">
-            <span>&copy;2018 Jamie Burgess</span>
-    </footer>
+    <footer><p>&copy;2018 Jamie Burgess</p></footer>
+    </body>
 
 </html>
