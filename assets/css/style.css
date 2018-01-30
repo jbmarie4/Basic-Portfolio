@@ -20,7 +20,9 @@ body{
 
 header{
 	background-color:white;
-    height:100px;
+    height:75px;
+    position:fixed;
+    width:100%;
     
 }
 
