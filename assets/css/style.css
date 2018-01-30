@@ -2,25 +2,31 @@
 /*CSS Document*/
 
 /*default my tags*/
-;body, header, footer{
-	margin: 0px; 
-	padding: 0px;
+/*;body, header, footer{*/
+header{
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
+	/*margin: 0px; 
+	padding: 0px;
+}*/
 
 body{
-	background-color:black;
+    background-color:black;
+    margin: auto;
 }
 	
 #wrapper{
 	margin: auto;
-	width:940px;
+    width:940px;
+    
 	/*height:800px; (*remove*, this is just to help with layout initially*/
 	
 }
 
 header{
 	background-color:white;
-    height:75px;
+    height:100px;
     position:fixed;
     width:100%;
     
@@ -38,14 +44,28 @@ h1{
     padding-bottom: 13px;
     height: 45px;
     color: white;
+    font-size:28px;
+    text-align:center;
 }
 
 
 /*-------------navbar--------------------- */
 .navbar{
     color:darkgray;
-    float:right;
+    float:right;     
+}
+
+ul{
     
+    padding-top:30px;
+}
+
+li{
+    display:inline;
+}
+
+.header-list{
+    text-decoration-color: darkgray;
 }
 
 .pic{
@@ -81,6 +101,7 @@ footer {
 	width:450px;
 	height:100%;
     float:left;
+    margin-top:100px;
     
     padding:10px;
 }
@@ -90,12 +111,15 @@ aside{
     border:solid;
     border-color:gray;
 	width:270px;
-	height:150px;
+	height:120px;
     float:right;
     overflow:hidden;
     vertical-align:top;
-    margin-top:11px;
+    margin-top:120px;
     text-align: center;
+    padding-top:40px;
+    font-size:24px;
+    
 }
 
 #icon{
