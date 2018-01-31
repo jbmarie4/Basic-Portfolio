@@ -18,8 +18,9 @@ body{
 	
 #wrapper{
 	margin: auto;
-    width:940px;
-    
+    width:960px;
+    padding:0px;
+    height:100%; 
 	/*height:800px; (*remove*, this is just to help with layout initially*/
 	
 }
@@ -39,33 +40,43 @@ h1{
     border-color: transparent;
     background-color:#4aaaa5;
     float:left;
-    margin-left: 100px;
+    margin-left: 222px;
     padding-top: 15px;
     padding-bottom: 13px;
     height: 45px;
     color: white;
     font-size:28px;
     text-align:center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 
 /*-------------navbar--------------------- */
 .navbar{
     color:darkgray;
-    float:right;     
+    float:right; 
+    margin-right:214px;    
 }
 
 ul{
     
     padding-top:30px;
+    
 }
 
 li{
     display:inline;
+        
 }
 
-.header-list{
-    text-decoration-color: darkgray;
+a{
+    text-decoration: none;
+    color:darkgray;
+}
+
+h2{ 
+    color:#4aaaa5;
+    font-family:'Georgia', Times, Times New Roman, serif;
 }
 
 .pic{
@@ -98,12 +109,13 @@ footer {
     background-color:white;
     border:solid;
     border-color:gray;
-	width:450px;
+	width:650px;
 	height:100%;
     float:left;
     margin-top:100px;
-    
+    margin-right:40px;
     padding:10px;
+    display:block;
 }
 	
 aside{
@@ -119,7 +131,8 @@ aside{
     text-align: center;
     padding-top:40px;
     font-size:24px;
-    
+    margin-left:50px;
+    margin-right:0px;
 }
 
 #icon{
