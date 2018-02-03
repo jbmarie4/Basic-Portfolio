@@ -233,6 +233,30 @@ aside{
 
 
 /*------------portfolio page---------------*/
+.portfolioH1{
+    width: 200px;
+    border: solid;
+    border-color: transparent;
+    background-color:#4aaaa5;
+    float:left;
+    margin-left: 216px;
+    padding:20px 15px 15px 15px;
+    height: 45px;
+    color: white;
+    font-size:26px;
+    text-align:center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight:bold;
+}
+
+.portfolioNavbar{
+    color:darkgray;
+    float:right; 
+    margin-right:250px;  
+    word-spacing:2px; 
+    padding-top:30px;
+}
+
 .container{
     position:relative;
 }
