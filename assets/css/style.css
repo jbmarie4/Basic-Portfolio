@@ -6,6 +6,7 @@ header{
 }
 
 body{
+    background-image: url("../images/background_wormz.png");
     background-color:black;
     margin: auto;
 }
@@ -108,6 +109,12 @@ h2{
     font-size: 16px;
     line-height:200%;
     word-spacing:1.5px;
+    vertical-align:text-top;
+    text-align:left;
+    text-align:justify;
+}
+span{
+    vertical-align:top;
 }
 
 #divAboveFooter{
@@ -190,7 +197,7 @@ aside{
     /*background-color:#dddddd;*/
 }
 
-#icon{
+.icon{
     width:50px;
     margin-right:10px;
     padding-top:5px;
